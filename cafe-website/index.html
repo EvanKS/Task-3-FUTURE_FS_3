@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The Roasted Bean - Premium artisan coffee shop in Bangalore, India. Enjoy freshly roasted coffee, organic pastries, and a cozy atmosphere.">
+    <title>The Roasted Bean | Artisan Coffee</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <i class="fa-solid fa-mug-hot"></i>
+                The Roasted Bean
+            </a>
+            <div class="mobile-menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="tel:+919611789501" class="btn-primary nav-btn">Order Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Experience the Art of Coffee</h1>
+            <p>Hand-crafted, ethically sourced coffee in the heart of Bangalore.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn-primary">View Menu</a>
+                <a href="#contact" class="btn-secondary">Find Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?q=80&w=1000&auto=format&fit=crop"
+                    alt="Barista pouring latte art">
+            </div>
+            <div class="about-text">
+                <h2>Our Story</h2>
+                <p>Born from a passion for exceptional coffee, The Roasted Bean started as a small cart in 2015. Today,
+                    we are Bangalore's premier destination for artisan coffee lovers.</p>
+                <p>We believe in sustainable practices, direct-trade sourcing, and the community that a great cup of
+                    coffee can build. Every cup is brewed with precision and care.</p>
+                <div class="features">
+                    <div class="feature">
+                        <i class="fa-solid fa-leaf"></i>
+                        <span>Ethically Sourced</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-fire"></i>
+                        <span>Locally Roasted</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-cookie-bite"></i>
+                        <span>Fresh Pastries</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-subtitle">Crafted with care, poured with precision.</p>
+
+            <div class="menu-grid">
+                <!-- Coffee Category -->
+                <div class="menu-category">
+                    <h3>Coffee & Chai</h3>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Filter Coffee</h4>
+                            <p>Traditional South Indian drip coffee</p>
+                        </div>
+                        <span class="price">₹120</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Masala Chai</h4>
+                            <p>Spiced Indian tea brewed with milk</p>
+                        </div>
+                        <span class="price">₹90</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Espresso</h4>
+                            <p>Double shot of our signature blend</p>
+                        </div>
+                        <span class="price">₹150</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Cappuccino</h4>
+                            <p>Espresso, steamed milk, deep foam</p>
+                        </div>
+                        <span class="price">₹200</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Latte</h4>
+                            <p>Espresso, steamed milk, light foam</p>
+                        </div>
+                        <span class="price">₹220</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Mocha</h4>
+                            <p>Espresso, chocolate, steamed milk</p>
+                        </div>
+                        <span class="price">₹250</span>
+                    </div>
+                </div>
+
+                <!-- Pastries Category -->
+                <div class="menu-category">
+                    <h3>Fresh Pastries</h3>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Butter Croissant</h4>
+                            <p>Flaky, buttery, baked fresh daily</p>
+                        </div>
+                        <span class="price">₹180</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Almond Croissant</h4>
+                            <p>Almond cream, toasted almonds</p>
+                        </div>
+                        <span class="price">₹220</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Blueberry Muffin</h4>
+                            <p>Wild blueberries, streusel top</p>
+                        </div>
+                        <span class="price">₹160</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h4>Avocado Toast</h4>
+                            <p>Sourdough, smashed avocado, chili flakes</p>
+                        </div>
+                        <span class="price">₹350</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="about" style="background-color: var(--bg-card); border-top: 1px solid #eee;">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="section-subtitle">Real experiences from Bangalore coffee lovers.</p>
+            <div class="menu-grid">
+                <div class="menu-item" style="flex-direction: column; align-items: center; text-align: center; background: var(--bg-light); padding: 2rem; border-radius: var(--radius); border-bottom: none;">
+                    <div style="color: #f1c40f; margin-bottom: 1rem;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p style="font-style: italic; margin-bottom: 1rem; color: var(--text-muted);">"The Filter Coffee here is absolutely authentic. It's the perfect spot in Indiranagar to catch up with friends or get some work done!"</p>
+                    <h4 style="color: var(--primary-color);">— Ananya R.</h4>
+                </div>
+                <div class="menu-item" style="flex-direction: column; align-items: center; text-align: center; background: var(--bg-light); padding: 2rem; border-radius: var(--radius); border-bottom: none;">
+                    <div style="color: #f1c40f; margin-bottom: 1rem;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p style="font-style: italic; margin-bottom: 1rem; color: var(--text-muted);">"Best avocado toast and latte I've had in the city. The staff is incredibly friendly and the ethically sourced beans make a huge difference."</p>
+                    <h4 style="color: var(--primary-color);">— Rahul M.</h4>
+                </div>
+                <div class="menu-item" style="flex-direction: column; align-items: center; text-align: center; background: var(--bg-light); padding: 2rem; border-radius: var(--radius); border-bottom: none;">
+                    <div style="color: #f1c40f; margin-bottom: 1rem;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p style="font-style: italic; margin-bottom: 1rem; color: var(--text-muted);">"A hidden gem. The Masala Chai paired with a butter croissant is my weekend ritual. Love the cozy atmosphere."</p>
+                    <h4 style="color: var(--primary-color);">— Priya S.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Atmosphere</h2>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=800&auto=format&fit=crop"
+                    alt="Coffee beans" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800&auto=format&fit=crop"
+                    alt="Cafe interior" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1481833761820-0509d3217039?q=80&w=800&auto=format&fit=crop"
+                    alt="Latte art" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?q=80&w=800&auto=format&fit=crop"
+                    alt="Pastries" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?q=80&w=800&auto=format&fit=crop"
+                    alt="Pour over coffee" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800&auto=format&fit=crop"
+                    alt="Customer working" class="gallery-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Ready for a coffee break? Visit us or drop a message!</p>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>123, 5th Cross, Indiranagar, Bangalore, Karnataka 560038</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+919611789501">+91 9611789501</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:hello@theroastedbean.in">hello@theroastedbean.in</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-regular fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon-Sun: 8:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="quick-actions">
+                        <a href="tel:+919611789501" class="action-btn call-btn">
+                            <i class="fa-solid fa-phone"></i> Call
+                        </a>
+                        <a href="mailto:hello@theroastedbean.in" class="action-btn email-btn">
+                            <i class="fa-solid fa-envelope"></i> Email
+                        </a>
+                        <a href="https://wa.me/919611789501" target="_blank" rel="noopener noreferrer"
+                            class="action-btn wa-btn">
+                            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe">
+                            <small class="error-msg"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="text" id="email" name="email" placeholder="john@example.com">
+                            <small class="error-msg"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="">Select a subject</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="catering">Catering Inquiry</option>
+                                <option value="jobs">Job Opportunity</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <small class="error-msg"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4"
+                                placeholder="How can we help you?"></textarea>
+                            <small class="error-msg"></small>
+                        </div>
+                        <button type="submit" class="btn-primary form-submit-btn">Send Message <i
+                                class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.001696423075!2d77.6385!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16a67f0f6243%3A0xc6e41b9d4e1b8b80!2sIndiranagar%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    The Roasted Bean
+                </a>
+                <p>Premium artisan coffee shop in Bangalore, India. Ethically sourced, locally roasted.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 The Roasted Bean. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
