@@ -1,4 +1,6 @@
 # ☕ The Roasted Bean – Bangalore
+[![Live Website](https://img.shields.io/badge/🌐%20Live%20Website-Visit-brightgreen?style=for-the-badge)](https://task-3-future-fs-3.vercel.app)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/EvanKS/Task-3-FUTURE_FS_3)
 
 *A Real Local Business Website Project*
 
